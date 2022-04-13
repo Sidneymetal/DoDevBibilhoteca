@@ -1,0 +1,31 @@
+Criar classes:
+*Usuarios
+*Livros
+*Editoras
+*Emprestimos
+
+Criar duas classes filhos que herdam de Usuario(*Cliente e
+*Funcionario) apenas *Cliente terá: curso, data inicio e data fim.
+Apenas *Funcionário terá: senha.
+Um Livro contém uma editora
+Cada emprestimo contem um usuário e um livro.
+Cada cliente contem uma lista com emprestimos utilizados.
+
+Classe Usuários deve ter os seguintes atributos:
+(NomeUsuario).
+
+Classe Livros deve ter os seguintes atributos:
+(Titulo, AnoPublicacao, Edicao, Editora, Autor, Classificacao, Idioma,
+Disponibilidade).
+
+Classe Editoras deve ter os seguintes atributos:
+(NomeEditora, Cidade).
+
+Classe Emprestimos deve ter os seguintes atributos:
+(LivroEmprestado, DataEmprestimo).
+
+Classe Clientes deve ter os seguintes atributos:
+(Curso, DataInicio, DataTerminoPrevista.).
+
+Classe Funcionarios deve ter os seguintes atributos:
+(Senha, DataEmprestimo).
